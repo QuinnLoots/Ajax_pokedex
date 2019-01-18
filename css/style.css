@@ -1,88 +1,68 @@
-body{
-    height: 100%;
-    /* The image used */
-    background-image: url("../images/background.jpg");
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  height: 100%;
+  /* The image used */
+  background-image: url("../images/background.jpg");
 
-  }
-  
-  
-    
-
-
-
-#dex img{
-    width: 1000px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-#pokemonimage{
-    position: absolute;
-    top: 245px;
-    left:80px;
-    height: 200px;
-    
-
+#dex img {
+  width: 1000px;
 }
 
-#pokemonname{
-    color: #ffffff;
-    position: absolute;
-    top: 260px;
-    left:730px;
-    font-weight: bold;
-    font-size: 30px;
-    
-
+#pokemonimage {
+  position: absolute;
+  top: 245px;
+  left: 80px;
+  height: 200px;
 }
 
-#pokemonid{
-    position: absolute;
-    color:#ffffff;
-    font-size: 30px;
-    top: 620px;
-    left: 180px;
-    
-
+#pokemonname {
+  color: #ffffff;
+  position: absolute;
+  top: 260px;
+  left: 730px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-#previous{
-    position: absolute;
-    top: 230px;
-    left: 580px;
-    height: 150px;
-    
-
+#pokemonid {
+  position: absolute;
+  color: #ffffff;
+  font-size: 30px;
+  top: 620px;
+  left: 180px;
 }
 
-#prevname{
-    color: #ffffff;
-    position: absolute;
-    top: 300px;
-    left:730px;
-    height: 50px;
-    
-
+#previous {
+  position: absolute;
+  top: 230px;
+  left: 580px;
+  height: 150px;
 }
 
-#moves{
-    position: absolute;
-    top: 280px;
-    left:280px;
-    height: 200px;
-    
-
+#prevname {
+  color: #ffffff;
+  position: absolute;
+  top: 300px;
+  left: 730px;
+  height: 50px;
 }
 
-#searchbar{
-    background-color: lightblue;
-    padding: 15px;
-    width: 30%;
-    margin: auto;
-    text-align: center;
+#moves {
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  height: 200px;
+}
+
+#searchbar {
+  background-color: lightblue;
+  padding: 15px;
+  width: 30%;
+  margin: auto;
+  text-align: center;
 }
